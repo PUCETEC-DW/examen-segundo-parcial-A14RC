@@ -1,6 +1,6 @@
 import { describe,it,expect } from 'vitest';
 import request from 'supertest';
-import app from './app.js'; 
+import app from './backend/app.js'; 
 
 describe('API de Tareas Avanzadas', () => {
   let id;
@@ -56,3 +56,8 @@ describe('API de Tareas Avanzadas', () => {
     expect(res.status).toBe(200);
   });
 });
+
+
+
+
+
